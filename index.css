@@ -90,10 +90,14 @@ video {
 @media screen and (min-width: 500px) {
   header {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 5.5rem 2rem 2.5rem 2rem;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     background-color: #a0d6b4;
+  }
+
+  header > p {
+    padding-left: 4rem;
   }
 
   h1 {
@@ -101,10 +105,26 @@ video {
     flex-flow: wrap row;
     font-size: 4.5rem;
     line-height: 1.1;
+    padding-left: 4rem;
   }
 
   h2 {
     font-size: 2rem;
+    padding-left: 4rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    padding-left: 4rem;
+  }
+
+  section#first > header > div > h3 {
+    border: #317873 solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
   }
 
   img {
