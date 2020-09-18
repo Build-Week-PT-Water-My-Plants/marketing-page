@@ -100,6 +100,14 @@ video {
     padding-left: 4rem;
   }
 
+  section#second > header {
+    background-color: white;
+  }
+
+  section#second > div.gallery > p {
+    border: solid 4px #5f9ea0;
+  }
+
   h1 {
     display: flex;
     flex-flow: wrap row;
@@ -122,9 +130,11 @@ video {
   section#first > header > div > h3 {
     border: #317873 solid 3px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
-    width: 50%;
+    margin-left: 4rem;
+    padding: 0;
+    width: 20rem;
   }
 
   img {
@@ -144,7 +154,7 @@ video {
   }
 
   p {
-    padding: 1%;
+    padding: 2%;
     line-height: 1.5rem;
     font-size: 1.2rem;
   }
