@@ -95,16 +95,45 @@ video {
     padding: 5.5rem 2rem 2.5rem 2rem;
     background-color: #a0d6b4;
   }
+
   h1 {
     display: flex;
+    flex-flow: wrap row;
     font-size: 4.5rem;
     line-height: 1.1;
   }
-  div.
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  img {
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+  }
+
+  div.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+  }
+
+  p.introText {
+    text-align: left;
+  }
+
+  p {
+    padding: 1%;
+  }
 }
 
 @media screen and (min-width: 800px) {
 }
 
 @media screen and (min-width: 1024px) {
-} ;
+}
