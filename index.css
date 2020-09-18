@@ -18,3 +18,14 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 } */
+
+@media screen and (min-width: 500px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1024px) {
+  div.wrapper {
+  }
+} ;
