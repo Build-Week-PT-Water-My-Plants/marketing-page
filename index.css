@@ -233,9 +233,16 @@ video {
   }
 
   header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
     width: 50%;
     margin: 0;
     padding: 8rem;
+  }
+
+  section#first > header > div > h3 {
+    width: 50%;
   }
 
   section#second > div.gallery {
