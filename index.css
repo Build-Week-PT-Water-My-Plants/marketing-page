@@ -91,13 +91,13 @@ video {
   header {
     width: 100%;
     margin: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     background-color: #a0d6b4;
   }
 
   header > p {
-    padding-left: 4rem;
+    padding-left: 4vh;
   }
 
   section#second > header {
@@ -113,18 +113,18 @@ video {
     flex-flow: wrap row;
     font-size: 4.5rem;
     line-height: 1.1;
-    padding-left: 4rem;
+    padding-left: 4vh;
   }
 
   h2 {
     font-size: 2rem;
-    padding-left: 4rem;
+    padding-left: 4vh;
   }
 
   h3 {
     font-size: 1.7rem;
-    line-height: 3rem;
-    padding-left: 4rem;
+    line-height: 3vh;
+    padding-left: 4vh;
   }
 
   section#first > header > div > h3 {
@@ -164,8 +164,8 @@ video {
   }
 
   p {
-    padding: 1rem;
-    line-height: 1.5rem;
+    padding: 1vh;
+    line-height: 1.5vh;
     font-size: 1.2rem;
   }
 
@@ -188,28 +188,28 @@ video {
   }
 
   header {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
   }
 
   header > p {
-    padding-left: 6rem;
+    padding-left: 6vh;
   }
 
   h1 {
-    padding-left: 6rem;
+    padding-left: 6vh;
   }
 
   h2 {
-    padding-left: 6rem;
+    padding-left: 6vh;
   }
 
   h3 {
-    padding-left: 6rem;
+    padding-left: 6vh;
   }
 
   section#first > header > div > h3 {
-    margin-left: 6rem;
+    margin-left: 6vh;
     padding: 0;
     width: 20%;
   }
@@ -223,7 +223,7 @@ video {
   }
 
   p {
-    padding: 2rem;
+    padding: 2vh;
   }
 }
 
@@ -238,15 +238,15 @@ video {
     justify-content: start;
     width: 50%;
     margin: 0;
-    padding: 8rem;
+    padding: 8vh;
   }
 
   section#first > header > div > h3 {
-    width: 50%;
+    width: 90%;
   }
 
   section#second > div.gallery {
-    border: solid 0.4rem #a3c1ad;
+    border: solid 0.4vh #a3c1ad;
     width: 49%;
   }
 
