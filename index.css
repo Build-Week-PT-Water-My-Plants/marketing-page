@@ -228,4 +228,26 @@ video {
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    display: flex;
+  }
+
+  header {
+    width: 50%;
+    margin: 0;
+    padding: 8rem;
+  }
+
+  section#second > div.gallery {
+    border: solid 0.4rem #a3c1ad;
+    width: 49%;
+  }
+
+  div.gallery {
+    width: 50%;
+  }
+
+  div.aboutUs {
+    width: 50%;
+  }
 }
