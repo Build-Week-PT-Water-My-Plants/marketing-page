@@ -86,3 +86,12 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+@media screen and (min-width: 0px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
