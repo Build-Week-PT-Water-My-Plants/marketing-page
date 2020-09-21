@@ -111,12 +111,17 @@ video {
 
   h1,
   h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h3 {
     color: #444;
     font-weight: 800;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    list-style: none;
   }
 
   nav {
@@ -124,7 +129,7 @@ video {
   }
 
   #intro {
-    padding: 3vh7;
+    padding: 3vh;
   }
 
   #banner-wrapper {
@@ -162,6 +167,63 @@ video {
   #button a:hover {
     text-decoration: underline;
     color: black;
+  }
+
+  #gallery {
+    padding: 3%;
+  }
+
+  #gallery-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  section.about-box {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3vh;
+    padding: 2vh;
+    border-radius: 6px;
+    background-color: white;
+  }
+  div.inner header h2 {
+    line-height: 11vh;
+  }
+  div.inner header p {
+    line-height: vh;
+  }
+
+  #footer {
+    padding: 3vh;
+  }
+
+  #footer div.row {
+    line-height: 3vh;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2vh;
+  }
+
+  #footer div.column {
+    padding: 2vh;
+    border-bottom: solid 1px #696969;
+  }
+  ul.links a {
+    line-height: 2vh;
+    color: black;
+    text-decoration: none;
+  }
+  ul.links a:hover {
+    text-decoration: underline;
+  }
+
+  ul.copyright li a {
+    text-decoration: none;
+  }
+  ul.copyright li a:hover {
+    text-decoration: underline;
   }
 }
 
