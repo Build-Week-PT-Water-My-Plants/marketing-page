@@ -228,6 +228,27 @@ video {
 }
 
 @media screen and (min-width: 800px) {
+  #top-bar header {
+    flex-flow: row wrap;
+    justify-content: start;
+    margin: 3%;
+  }
+
+  nav {
+    display: flex;
+    border: solid 2px red;
+    margin: 2%;
+    margin-left: 60%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  nav ul li {
+    margin: 6%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
