@@ -245,11 +245,13 @@ video {
     display: flex;
     /* border: solid 2px blue; */
     flex-flow: row wrap;
+    width: 90%;
   }
 
-  /* nav ul li {
-    border: solid 2px red;
-  } */
+  nav ul li {
+    /* border: solid 2px red; */
+    padding-left: 6%;
+  }
 
   #banner-wrapper {
     padding: 3%;
@@ -290,4 +292,28 @@ video {
 }
 
 @media screen and (min-width: 1024px) {
+  #banner-wrapper {
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 6%;
+  }
+
+  #banner-wrapper header {
+    text-align: left;
+  }
+
+  #button {
+    width: 20%;
+    margin-left: 30%;
+    margin-top: 0;
+  }
+
+  #gallery {
+    margin: auto 3%;
+    padding: 1%;
+  }
+
+  .about-box {
+    padding: 0;
+  }
 }
