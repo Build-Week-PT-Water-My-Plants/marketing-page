@@ -276,6 +276,16 @@ video {
 
   #footer div.row {
     flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  ul.copyright {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  ul.copyright li {
+    padding: 3%;
   }
 }
 
