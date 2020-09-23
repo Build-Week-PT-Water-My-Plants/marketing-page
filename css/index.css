@@ -91,13 +91,13 @@ video {
   header {
     width: 100%;
     margin: auto;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
     background-color: #a0d6b4;
   }
 
   header > p {
-    padding-left: 4vh;
+    padding-left: 4%;
   }
 
   section#second > header {
@@ -113,22 +113,22 @@ video {
     flex-flow: wrap row;
     font-size: 4.5rem;
     line-height: 1.1;
-    padding-left: 4vh;
+    padding-left: 4%;
   }
 
   h2 {
     font-size: 2rem;
-    padding-left: 4vh;
+    padding-left: 4%;
   }
 
   h3 {
     font-size: 1.7rem;
-    line-height: 3vh;
-    padding-left: 4vh;
+    line-height: 100%;
+    padding-left: 4%;
   }
 
   section#first > header > div > h3 {
-    border: #317873 solid 3px;
+    /* border: #317873 solid 3px; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -164,8 +164,8 @@ video {
   }
 
   p {
-    padding: 1vh;
-    line-height: 1.5vh;
+    padding: 1%;
+    line-height: 110%;
     font-size: 1.2rem;
   }
 
@@ -188,16 +188,16 @@ video {
   }
 
   header {
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 6%;
+    padding-bottom: 6%;
   }
 
   header > p {
-    padding-left: 6vh;
+    padding-left: 6%;
   }
 
   h1 {
-    padding-left: 6vh;
+    padding-left: 6%;
   }
 
   h2 {

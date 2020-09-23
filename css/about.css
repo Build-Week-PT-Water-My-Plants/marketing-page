@@ -103,13 +103,14 @@ video {
   h1 {
     width: 100%;
     margin: 2%;
+    font-family: "Quicksand", sans-serif;
   }
   h1 a {
     padding: 1%;
     font-size: 3rem;
     text-decoration: none;
     color: black;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 1vh;
     width: 70%;
   }
@@ -134,7 +135,7 @@ video {
   }
 
   #intro {
-    padding: 3%;
+    padding: 1%;
   }
 
   #banner-wrapper {
@@ -208,6 +209,7 @@ video {
     line-height: 110%;
     display: flex;
     flex-flow: column wrap;
+    text-align: center;
     padding: 3%;
   }
 
@@ -262,7 +264,8 @@ video {
 
   #top-bar nav ul li h2,
   #top-bar nav ul li a {
-    padding: 3%;
+    font-size: 1.4rem;
+    padding: 5%;
     text-align: center;
     background-color: lightslategray;
     border-radius: 1vh;
@@ -291,7 +294,7 @@ video {
   }
 
   .about-box {
-    width: 28%;
+    width: 30%;
     margin: auto 1%;
   }
   .about-box img {
@@ -341,5 +344,6 @@ video {
 
   .about-box {
     padding: 0;
+    width: 27%;
   }
 }
