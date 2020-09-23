@@ -89,14 +89,14 @@ video {
 
 @media screen and (min-width: 0px) {
   div.wrapper {
-    border: solid red 2px;
-    background-color: lightslategray;
+    background-color: #a0d6b4;
   }
 
   #top-bar header {
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
+    margin-top: 0;
     padding-top: 4vh;
   }
   h1 a {
@@ -156,7 +156,7 @@ video {
     text-align: center;
     font-size: 1.25em;
     padding: 0.65vh 0;
-    background-color: #5f9ea0;
+    background-color: lightslategray;
     padding: 2%;
     border-radius: 1vh;
   }
@@ -231,7 +231,7 @@ video {
   #top-bar header {
     flex-flow: row wrap;
     justify-content: start;
-    margin: 3%;
+    margin-left: 4%;
   }
 
   nav {
@@ -292,6 +292,10 @@ video {
 }
 
 @media screen and (min-width: 1024px) {
+  #top-bar header {
+    margin-top: 0;
+  }
+
   #banner-wrapper {
     flex-flow: row wrap;
     justify-content: center;
