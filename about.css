@@ -104,18 +104,11 @@ video {
     width: 100%;
     margin: 2%;
     font-family: "Quicksand", sans-serif;
-  }
-  h1 a {
-    padding: 1%;
     font-size: 3rem;
-    text-decoration: none;
     color: black;
-    /* background-color: white; */
-    border-radius: 1vh;
-    width: 70%;
+    padding: 1%;
   }
 
-  h1,
   h2,
   h3 {
     color: #444;
