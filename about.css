@@ -177,12 +177,13 @@ video {
     flex-flow: column wrap;
     justify-content: center;
   }
-  section.about-box {
+
+  .about-box {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     text-align: center;
-    margin-bottom: 3%;
+    margin: 3%;
     padding: 2%;
     border-radius: 6px;
     background-color: white;
@@ -192,10 +193,10 @@ video {
     padding-top: 5%;
   }
   div.inner header h2 {
-    line-height: 110%;
+    padding: 2%;
   }
   div.inner header p {
-    line-height: 110%;
+    padding: 0.5%;
   }
 
   #footer {
@@ -291,11 +292,13 @@ video {
   }
 
   .about-box {
-    height: 69vh;
+    height: 90%;
     width: 30%;
-    margin: auto 1%;
+    margin: 3%;
   }
   .about-box img {
+    height: auto;
+    height: 90%;
     width: 90%;
   }
 
@@ -341,7 +344,8 @@ video {
   }
 
   .about-box {
-    padding: 0;
-    width: 27%;
+    padding: 2%;
+    margin: 1%;
+    width: 20%;
   }
 }
