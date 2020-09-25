@@ -88,29 +88,76 @@ video {
 }
 
 @media screen and (min-width: 0px) {
+  nav {
+    display: flex;
+    /* border: solid 2px red; */
+    margin: 2%;
+    width: 90%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    /* border: solid 2px blue; */
+    flex-flow: row wrap;
+    margin: auto;
+    width: 90%;
+  }
+
+  nav ul li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 60%;
+    padding: 1%;
+  }
+
+  nav ul li h2,
+  nav ul li a {
+    display: flex;
+    flex-flow: column;
+    font-size: 1.4rem;
+    padding: 2%;
+    text-align: center;
+    background-color: lightslategray;
+    border-radius: 1vh;
+    text-decoration: none;
+    color: black;
+    width: 60%;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: purple;
+  }
+
   header {
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
     margin: auto;
     padding-top: 4%;
     padding-bottom: 4%;
     background-color: #a0d6b4;
   }
 
-  header > p {
+  header p {
     padding-left: 4%;
   }
 
-  section#second > header {
+  section#second header {
     background-color: white;
   }
 
-  section#second > div.gallery > p {
+  section#second div.gallery p {
     border: solid 4px #5f9ea0;
   }
 
-  h1 {
+  .intro header h1 {
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: row wrap;
+    text-align: center;
     font-size: 4.5rem;
     line-height: 1.1;
     padding-left: 4%;
@@ -126,16 +173,6 @@ video {
     font-size: 1.7rem;
     line-height: 100%;
     padding-left: 4%;
-  }
-
-  section#first > header > div > h3 {
-    /* border: #317873 solid 3px; */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-left: 4rem;
-    padding: 0;
-    width: 20%;
   }
 
   img {
@@ -165,6 +202,7 @@ video {
   }
 
   p {
+    text-align: center;
     padding: 1%;
     line-height: 110%;
     font-size: 1.2rem;
@@ -232,20 +270,31 @@ video {
     transition: width 2s;
   }
 
+  nav ul li {
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 30%;
+    padding: 1%;
+  }
+
   header {
+    justify-content: left;
     padding-top: 6%;
     padding-bottom: 6%;
   }
 
-  header > p {
+  header p {
+    text-align: left;
     padding-left: 6%;
   }
 
-  h1 {
+  .intro header h1 {
+    text-align: left;
     padding-left: 6%;
   }
 
   h2 {
+    text-align: left;
     padding-left: 6vh;
   }
 
@@ -255,12 +304,6 @@ video {
 
   .column h3 {
     padding: 0;
-  }
-
-  section#first > header > div > h3 {
-    margin-left: 6vh;
-    padding: 0;
-    width: 20%;
   }
 
   div.gallery {
@@ -302,18 +345,18 @@ video {
 
   header {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
+    flex-flow: column wrap;
+    justify-content: left;
     width: 50%;
     margin: 0;
-    padding: 8vh;
+    padding: 8%;
   }
 
-  section#first > header > div > h3 {
-    width: 90%;
+  nav {
+    display: none;
   }
 
-  section#second > div.gallery {
+  section#second div.gallery {
     border: solid 0.4vh #a3c1ad;
     width: 49%;
   }

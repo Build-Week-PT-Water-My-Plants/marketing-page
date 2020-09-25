@@ -104,18 +104,11 @@ video {
     width: 100%;
     margin: 2%;
     font-family: "Quicksand", sans-serif;
-  }
-  h1 a {
-    padding: 1%;
     font-size: 3rem;
-    text-decoration: none;
     color: black;
-    /* background-color: white; */
-    border-radius: 1vh;
-    width: 70%;
+    padding: 1%;
   }
 
-  h1,
   h2,
   h3 {
     color: #444;
@@ -245,21 +238,21 @@ video {
     display: flex;
     /* border: solid 2px red; */
     margin: 2%;
-    margin-left: 60%;
+    margin-left: 50%;
   }
 
   nav ul {
     display: flex;
     /* border: solid 2px blue; */
     flex-flow: row wrap;
-    width: 90%;
+    width: 100%;
   }
 
   nav ul li {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 30%;
+    margin: auto 3%;
   }
 
   #top-bar nav ul li h2,
