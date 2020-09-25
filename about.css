@@ -125,6 +125,10 @@ video {
     font-size: 1.3rem;
   }
 
+  p {
+    font-size: 1.1rem;
+  }
+
   ul {
     list-style: none;
   }
@@ -308,8 +312,8 @@ video {
   }
 
   .about-box {
-    height: 45vh;
-    width: 28vh;
+    height: 40vh;
+    width: 25vh;
     margin: 1%;
   }
   .about-box img {
@@ -369,7 +373,7 @@ video {
   }
 
   .about-box {
-    height: 30vh;
+    height: 35vh;
     width: 20vh;
     margin: 1%;
   }
