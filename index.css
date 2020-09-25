@@ -351,14 +351,14 @@ video {
   header {
     display: flex;
     flex-flow: column wrap;
-    justify-content: left;
+    justify-content: center;
     width: 50%;
     margin: 0;
     padding: 8%;
   }
 
   .intro header img {
-    width: 0%;
+    width: 90%;
     padding-bottom: 5%;
   }
 
