@@ -100,9 +100,14 @@ video {
     padding-top: 4%;
   }
 
+  #top-bar header img {
+    height: 10%;
+    width: 10%;
+  }
+
   h1 {
-    width: 100%;
-    margin: 2%;
+    width: 65%;
+    margin-left: 2%;
     font-family: "Quicksand", sans-serif;
     font-size: 3rem;
     color: black;
@@ -139,6 +144,8 @@ video {
     padding: 2%;
     border-radius: 6px;
     background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   #banner-wrapper header h2 {
@@ -239,6 +246,15 @@ video {
     margin-left: 4%;
   }
 
+  #top-bar header img {
+    height: 8%;
+    width: 8%;
+  }
+
+  h1 {
+    width: 49%;
+  }
+
   nav {
     display: flex;
     /* border: solid 2px red; */
@@ -320,6 +336,15 @@ video {
 @media screen and (min-width: 1024px) {
   #top-bar header {
     margin-top: 0;
+  }
+
+  #top-header header img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  h1 {
+    width: 38%;
   }
 
   #banner-wrapper {
