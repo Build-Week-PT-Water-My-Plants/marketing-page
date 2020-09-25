@@ -96,13 +96,14 @@ video {
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
+    width: 100%;
     margin-top: 0;
     padding-top: 4%;
   }
 
   #top-bar header img {
-    height: 10%;
-    width: 10%;
+    width: 30%;
+    padding: 2%;
   }
 
   h1 {
@@ -242,13 +243,12 @@ video {
 @media screen and (min-width: 800px) {
   #top-bar header {
     flex-flow: row wrap;
-    justify-content: start;
-    margin-left: 4%;
+    justify-content: center;
   }
 
   #top-bar header img {
-    height: 8%;
-    width: 8%;
+    height: 20%;
+    width: 20%;
   }
 
   h1 {
@@ -308,13 +308,13 @@ video {
   }
 
   .about-box {
-    height: 90%;
-    width: 30%;
-    margin: 3%;
+    height: 38vh;
+    width: 28vh;
+    margin: 1%;
   }
   .about-box img {
     height: auto;
-    height: 90%;
+
     width: 90%;
   }
 
@@ -369,8 +369,8 @@ video {
   }
 
   .about-box {
-    padding: 2%;
+    height: 30vh;
+    width: 20vh;
     margin: 1%;
-    width: 20%;
   }
 }
