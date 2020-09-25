@@ -187,6 +187,10 @@ video {
     border-radius: 6px;
     background-color: white;
   }
+
+  div.inner {
+    padding-top: 5%;
+  }
   div.inner header h2 {
     line-height: 110%;
   }
@@ -287,6 +291,7 @@ video {
   }
 
   .about-box {
+    height: 69vh;
     width: 30%;
     margin: auto 1%;
   }
