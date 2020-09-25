@@ -175,16 +175,6 @@ video {
     padding-left: 4%;
   }
 
-  section#first > header > div > h3 {
-    /* border: #317873 solid 3px; */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-left: 4rem;
-    padding: 0;
-    width: 20%;
-  }
-
   img {
     display: flex;
     flex-flow: wrap row;
@@ -280,6 +270,13 @@ video {
     transition: width 2s;
   }
 
+  nav ul li {
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 30%;
+    padding: 1%;
+  }
+
   header {
     justify-content: left;
     padding-top: 6%;
@@ -307,12 +304,6 @@ video {
 
   .column h3 {
     padding: 0;
-  }
-
-  section#first > header > div > h3 {
-    margin-left: 6vh;
-    padding: 0;
-    width: 20%;
   }
 
   div.gallery {
@@ -354,22 +345,18 @@ video {
 
   header {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
+    flex-flow: column wrap;
+    justify-content: left;
     width: 50%;
     margin: 0;
-    padding: 8vh;
+    padding: 8%;
   }
 
   nav {
     display: none;
   }
 
-  section#first > header > div > h3 {
-    width: 90%;
-  }
-
-  section#second > div.gallery {
+  section#second div.gallery {
     border: solid 0.4vh #a3c1ad;
     width: 49%;
   }
