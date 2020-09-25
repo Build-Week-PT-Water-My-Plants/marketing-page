@@ -96,13 +96,19 @@ video {
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
+    width: 100%;
     margin-top: 0;
     padding-top: 4%;
   }
 
+  #top-bar header img {
+    width: 30%;
+    padding: 2%;
+  }
+
   h1 {
-    width: 100%;
-    margin: 2%;
+    width: 65%;
+    margin-left: 2%;
     font-family: "Quicksand", sans-serif;
     font-size: 3rem;
     color: black;
@@ -117,6 +123,10 @@ video {
 
   h3 {
     font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
   }
 
   ul {
@@ -139,6 +149,8 @@ video {
     padding: 2%;
     border-radius: 6px;
     background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   #banner-wrapper header h2 {
@@ -177,21 +189,26 @@ video {
     flex-flow: column wrap;
     justify-content: center;
   }
-  section.about-box {
+
+  .about-box {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     text-align: center;
-    margin-bottom: 3%;
+    margin: 3%;
     padding: 2%;
     border-radius: 6px;
     background-color: white;
   }
+
+  div.inner {
+    padding-top: 5%;
+  }
   div.inner header h2 {
-    line-height: 110%;
+    padding: 2%;
   }
   div.inner header p {
-    line-height: 110%;
+    padding: 0.5%;
   }
 
   #footer {
@@ -230,8 +247,16 @@ video {
 @media screen and (min-width: 800px) {
   #top-bar header {
     flex-flow: row wrap;
-    justify-content: start;
-    margin-left: 4%;
+    justify-content: center;
+  }
+
+  #top-bar header img {
+    height: 20%;
+    width: 20%;
+  }
+
+  h1 {
+    width: 49%;
   }
 
   nav {
@@ -273,7 +298,7 @@ video {
 
   #banner-wrapper {
     padding: 3%;
-    margin: auto 3%;
+    margin: auto 9%;
   }
 
   #button {
@@ -287,10 +312,13 @@ video {
   }
 
   .about-box {
-    width: 30%;
-    margin: auto 1%;
+    height: 40vh;
+    width: 25vh;
+    margin: 1%;
   }
   .about-box img {
+    height: auto;
+
     width: 90%;
   }
 
@@ -312,6 +340,15 @@ video {
 @media screen and (min-width: 1024px) {
   #top-bar header {
     margin-top: 0;
+  }
+
+  #top-header header img {
+    width: 13vh;
+    height: 13vh;
+  }
+
+  h1 {
+    width: 38%;
   }
 
   #banner-wrapper {
@@ -336,7 +373,8 @@ video {
   }
 
   .about-box {
-    padding: 0;
-    width: 27%;
+    height: 35vh;
+    width: 20vh;
+    margin: 1%;
   }
 }
