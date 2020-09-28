@@ -199,6 +199,11 @@ video {
     padding: 2%;
     border-radius: 6px;
     background-color: white;
+    width: 90%;
+  }
+
+  .about-box img {
+    width: 90%;
   }
 
   div.inner {
